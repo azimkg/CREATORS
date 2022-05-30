@@ -1,11 +1,12 @@
 import React from "react";
-import Works from "./components/Works/Works";
+import Routing from "./Routing";
+import "./App.css";
 import "antd/dist/antd.css";
 
 const App = () => {
   return (
     <div>
-      <Works />
+      <Routing />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
-import style from "../Works/Works.css";
 import { Carousel } from "antd";
+import "./Works.css"
 
 const Works = () => {
   return (
