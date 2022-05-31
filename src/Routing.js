@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import Navbar from "./components/Navbar/Navbar";
 import OurWorks from "./components/OurWorks/OurWorks";
 import Works from "./components/Works/Works";
+import Footer from "./components/Footer/Footer";
 
 const Routing = () => {
   return (
@@ -14,6 +15,7 @@ const Routing = () => {
         <Route path="/works" element={<OurWorks />} />
         <Route path="/" element={<Works />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
