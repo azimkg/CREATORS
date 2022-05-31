@@ -11,7 +11,7 @@ import Works from "../Works/Works";
 const MainPage = () => {
   return (
     <>
-      <div className="main-page-content">
+      <div className="main-page-content container">
         <div className="main-page-wrapper">
           <div className="main-page-left-block">
             <h1>

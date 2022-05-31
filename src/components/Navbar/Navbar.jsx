@@ -10,7 +10,6 @@ const Navbar = () => {
             <span className="navbar_h1">
               <span className="navbar_title2">CREAT</span>ORS
             </span>
-            <span className="navbar_r">R</span>
           </div>
 
           <div className="navbar_block2">

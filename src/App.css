@@ -7,8 +7,10 @@
 * {
   padding: 0;
   margin: 0;
-
-  /* mix-blend-mode: normal; */
+  box-sizing: border-box;
+}
+body {
+  background: rgba(30, 37, 43, 1) !important;
 }
 .container {
   max-width: 80%;

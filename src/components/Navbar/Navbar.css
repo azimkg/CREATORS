@@ -1,18 +1,9 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.navbar {
-  background-color: rgba(30, 37, 43, 1);
-}
 .navbar_container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   height: 95px;
 }
-
 .navbar_inner {
   display: flex;
   justify-content: space-between;
@@ -23,10 +14,9 @@ body {
   text-decoration: none;
   font-size: 18px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.55) !important;
   font-style: normal;
   position: relative;
-  margin-block: 2px;
 }
 .navbar_a::after {
   content: "";
@@ -36,13 +26,14 @@ body {
   border-radius: 4px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -3px;
   transform: scale(0);
   transform-origin: left;
   transition: transform 0.25s ease;
 }
 .navbar_a:hover::after {
   transform: scaleX(1);
+  color: rgba(255, 255, 255, 0.55);
 }
 .navbar_h1 {
   font-size: 40px;
@@ -178,7 +169,7 @@ body {
 @media (max-width: 500px) {
   .burger {
     display: block;
-    margin-right: 10px;
+    margin-right: 0;
     cursor: pointer;
   }
   .navbar_a {
