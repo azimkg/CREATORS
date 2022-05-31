@@ -1,4 +1,4 @@
-import { Button } from "antd";
+// import { Button } from "antd";
 import React from "react";
 import "./LandingPage.css";
 
@@ -21,7 +21,7 @@ const LandingPage = () => {
               Wow! see the latest update of the most recommended tools from
               reliable designers and developers
             </p>
-            <Button className="rigth__btn">Explore more</Button>
+            <button className="rigth__btn">Explore more</button>
           </div>
         </div>
       </div>
