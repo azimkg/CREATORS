@@ -15,7 +15,7 @@ const Routing = () => {
         <Route path="/works" element={<OurWorks />} />
         <Route path="/" element={<Works />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 };
