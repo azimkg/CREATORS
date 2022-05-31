@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Poppins:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Oswald:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Gothic+A1&family=Oswald:wght@400;500&family=Tiro+Devanagari+Hindi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Dancing+Script&family=Gothic+A1&family=Oswald:wght@400;500&family=Tiro+Devanagari+Hindi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Cinzel&family=Crete+Round&family=Dancing+Script&family=Gothic+A1&family=Inconsolata&family=Oswald:wght@400;500&family=Patua+One&family=Tiro+Devanagari+Hindi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Cinzel&family=Dancing+Script&family=Gothic+A1&family=Inconsolata&family=Oswald:wght@400;500&family=Patua+One&family=Tiro+Devanagari+Hindi&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  background: #1e252b;
+  mix-blend-mode: normal;
+}
+.container {
+  max-width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}

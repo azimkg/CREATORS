@@ -1,10 +1,18 @@
 import React from "react";
-import MainPage from "./components/MainPage/MainPage";
+
+
+import Routing from "./Routing";
+import "./App.css";
+import "antd/dist/antd.css";
+
 
 const App = () => {
   return (
     <div>
-      <MainPage />
+
+
+      <Routing />
+
     </div>
   );
 };
