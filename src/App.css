@@ -7,8 +7,8 @@
 * {
   padding: 0;
   margin: 0;
-  background: #1e252b;
-  mix-blend-mode: normal;
+
+  /* mix-blend-mode: normal; */
 }
 .container {
   max-width: 80%;
