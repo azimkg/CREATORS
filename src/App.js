@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
-  return <div>dsdfsf</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
