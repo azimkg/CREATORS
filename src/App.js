@@ -1,10 +1,16 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
+
+import Routing from "./Routing";
+import "./App.css";
+import "antd/dist/antd.css";
+
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+
+      <Routing />
+
     </div>
   );
 };
