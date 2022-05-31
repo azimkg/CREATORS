@@ -6,7 +6,7 @@ import "antd/dist/antd.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Routing />
     </div>
   );
