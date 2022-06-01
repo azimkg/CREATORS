@@ -18,14 +18,16 @@
   flex: 2 1 300px;
 }
 .left__top-txt {
-  font-size: 8vw;
+  font-size: 6vw;
   color: #ffff;
   margin: 0;
+  text-transform: uppercase;
 }
 .left__bottom-txt {
   color: rgba(248, 93, 84, 0.41);
   font-size: 6vw;
   float: right;
+  text-transform: uppercase;
 }
 
 .for_bg_1 {
@@ -56,19 +58,21 @@
 .rigth__title {
   color: #ffff;
   font-size: 3vw;
+  text-transform: uppercase;
 }
 .rigth__descr {
   font-size: 2vw;
-  line-height: 6vh;
+  line-height: 5vh;
   color: rgba(255, 255, 255, 0.55);
 }
 .rigth__btn {
-  width: 150px;
+  letter-spacing: 3px;
+  width: 180px;
   height: 48px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 33px;
   color: #ffffff;
   background-color: #ff6e30;
@@ -99,8 +103,15 @@
   }
 
   .rigth__btn {
-    width: 90px;
-    height: 30px;
-    font-size: 12px;
+    width: 120px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 482px) {
+  .rigth__btn {
+    width: 180px;
+    height: 60px;
+    font-size: 14px;
   }
 }

@@ -4,14 +4,13 @@ import "./Navbar.css";
 const Navbar = () => {
   const [burger, setBurger] = useState(false);
   return (
-    <div className="navbar">
+    <div className="navbar container">
       <div className="navbar_container">
         <div className="navbar_inner">
           <div className="navbar_block1">
             <span className="navbar_h1">
               <span className="navbar_title2">CREAT</span>ORS
             </span>
-            <span className="navbar_r">R</span>
           </div>
 
           <div className="navbar_block2">
@@ -38,13 +37,13 @@ const Navbar = () => {
               x
             </span>
             <div className="burger2">
-              <Link to="/" className="navbar_a">
+              <Link to="/" className="navbar_a1">
                 Home
               </Link>
-              <Link to="/about" className="navbar_a">
+              <Link to="/about" className="navbar_a1">
                 About
               </Link>
-              <Link to="/works" className="navbar_a">
+              <Link to="/works" className="navbar_a1">
                 Our works
               </Link>
             </div>
