@@ -11,7 +11,7 @@ const Works = () => {
         Tools for the best Designers and Developers most popularly used in the
         world
       </h4>
-      <Carousel>
+      <Carousel autoplay>
         <div className="carousel-block">
           <div className="carousel-block__slide">
             <img

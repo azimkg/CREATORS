@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
   const [burger, setBurger] = useState(false);
   return (
-    <div className="navbar">
+    <div className="navbar container">
       <div className="navbar_container">
         <div className="navbar_inner">
           <div className="navbar_block1">
@@ -13,15 +14,15 @@ const Navbar = () => {
           </div>
 
           <div className="navbar_block2">
-            <a href="" className="navbar_a">
+            <Link to="/" className="navbar_a">
               Home
-            </a>
-            <a href="" className="navbar_a">
+            </Link>
+            <Link to="/about" className="navbar_a">
               About
-            </a>
-            <a href="" className="navbar_a">
+            </Link>
+            <Link to="/works" className="navbar_a">
               Our works
-            </a>
+            </Link>
             <img
               onClick={() => setBurger(true)}
               className="burger"
@@ -36,15 +37,15 @@ const Navbar = () => {
               x
             </span>
             <div className="burger2">
-              <a href="" className="navbar_a1">
+              <Link to="/" className="navbar_a1">
                 Home
-              </a>
-              <a href="" className="navbar_a1">
+              </Link>
+              <Link to="/about" className="navbar_a1">
                 About
-              </a>
-              <a href="" className="navbar_a1">
+              </Link>
+              <Link to="/works" className="navbar_a1">
                 Our works
-              </a>
+              </Link>
             </div>
           </div>
         ) : null}

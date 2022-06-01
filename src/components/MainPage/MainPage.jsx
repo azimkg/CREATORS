@@ -7,6 +7,8 @@ import groupimg from "../MainPage/MainPage-img/Group1.png";
 import creators from "../MainPage/MainPage-img/CREATORS.png";
 import strelka from "../MainPage/MainPage-img/strelka.svg";
 import Works from "../Works/Works";
+import LandingPage from "../LandingPage/LandingPage";
+import LandingCarousel from "../LandingCarousel/LandingCarousel";
 
 const MainPage = () => {
   return (
@@ -42,6 +44,8 @@ const MainPage = () => {
         </div>
       </div>
       <Works />
+      <LandingPage />
+      <LandingCarousel />
     </>
   );
 };
