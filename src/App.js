@@ -1,5 +1,4 @@
 import React from "react";
-
 import Routing from "./Routing";
 import "./App.css";
 import "antd/dist/antd.css";
@@ -11,5 +10,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
