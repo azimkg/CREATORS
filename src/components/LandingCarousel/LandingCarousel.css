@@ -20,7 +20,6 @@
   margin: 0 10px;
 }
 .card {
-  border: 1px solid #fff;
   background: #283036;
   border-radius: 8px;
   overflow: hidden;
@@ -37,4 +36,9 @@
   font-size: 1rem;
   margin: 10px 20px;
   color: #fff !important;
+}
+@media only screen and (max-width: 480px) {
+  .card {
+    height: 270px;
+  }
 }

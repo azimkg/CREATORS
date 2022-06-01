@@ -44,7 +44,9 @@ li {
 .footer-left a:hover {
   color: rgb(243, 84, 35);
 }
-
+.footer-left p {
+  margin-top: 20px;
+}
 .footer-left h3 span {
   color: rgb(243, 84, 35);
   font: normal 29px "cookie", cursive;
@@ -114,4 +116,17 @@ li {
   font-size: 13px;
   font-weight: normal;
   margin: 0;
+}
+@media only screen and (max-width: 480px) {
+  .footer-main div {
+    max-width: 200px;
+  }
+  p {
+    margin-top: 25px;
+  }
+  ul {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
