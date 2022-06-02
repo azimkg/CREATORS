@@ -1,10 +1,12 @@
 import React from "react";
 import "./About.css";
+import mamed from "../img/photo5238161227262311347.jpg";
+
 const About = () => {
   return (
     <>
       {/* О нас */}
-      <div>
+      <div className="content_contact">
         <div className="container_us">
           <section>
             <h1 className="title">O НАС</h1>
@@ -72,24 +74,133 @@ const About = () => {
               </li>
             </ul>
             <br></br>
-            <br></br>С каждым днем интернет-магазин совершенствуется и пополняет
-            ассортимент профессиональной косметики на страницах сайта. Мы
-            благодарны Вам за выбор KrasaVolos и будем рады видеть Вас
-            счастливыми клиентами нашего интернет-магазина!
-            <br></br>
-            <br></br>
-            Удачных Вам покупок!
-            <br></br>
             <br></br>
           </section>
         </div>
       </div>
       {/* End О нас */}
 
+      {/* НАШИ Сотрудники */}
+      <div className="cart">
+        <div className="people">
+          <img
+            className="img__item"
+            src={mamed}
+            alt="Imag"
+            width="100"
+            height="100"
+          />
+          <h3>Медияр уулу Абсамат </h3>
+          <ol>
+            <li>
+              Сео специалисты специалисты специалисты специалисты специалисты{" "}
+              специалис тыспециалистысп
+            </li>
+          </ol>
+        </div>
+        <div className="people">
+          <img
+            className="img__item"
+            src={mamed}
+            alt=""
+            width="100"
+            height="100"
+          />
+          <h3>Медияр уулу Абсамат </h3>
+          <ol>
+            <li>
+              Сео специалисты специалисты специалисты специалисты специалисты{" "}
+              специалис тыспециалистысп
+            </li>
+          </ol>
+        </div>
+        <div className="people">
+          <img
+            className="img__item"
+            src={mamed}
+            alt=""
+            width="100"
+            height="100"
+          />
+          <h3>Медияр уулу Абсамат </h3>
+          <ol>
+            <li>
+              Сео специалисты специалисты специалисты специалисты специалисты{" "}
+              специалис тыспециалистысп
+            </li>
+          </ol>
+        </div>{" "}
+        <div>
+          <img
+            className="img__item"
+            src={mamed}
+            alt=""
+            width="100"
+            height="100"
+          />
+          <h3>Медияр уулу Абсамат </h3>
+          <ol>
+            <li>
+              Сео специалисты специалисты специалисты специалисты специалисты{" "}
+              специалис тыспециалистысп
+            </li>
+          </ol>
+        </div>{" "}
+        <div>
+          <img
+            className="img__item"
+            src={mamed}
+            alt=""
+            width="100"
+            height="100"
+          />
+          <h3>Медияр уулу Абсамат </h3>
+          <ol>
+            <li>
+              Сео специалисты специалисты специалисты специалисты специалисты{" "}
+              специалис тыспециалистысп
+            </li>
+          </ol>
+        </div>{" "}
+        <div>
+          <img
+            className="img__item"
+            src={mamed}
+            alt=""
+            width="100"
+            height="100"
+          />
+          <h3>Медияр уулу Абсамат </h3>
+          <ol>
+            <li>
+              Сео специалисты специалисты специалисты специалисты специалисты{" "}
+              специалис тыспециалистысп
+            </li>
+          </ol>
+        </div>{" "}
+        <div>
+          <img
+            className="img__item"
+            src={mamed}
+            alt=""
+            width="100"
+            height="100"
+          />
+          <h3>Медияр уулу Абсамат </h3>
+          <ol>
+            <li>
+              Сео специалисты специалисты специалисты специалисты специалисты{" "}
+              специалис тыспециалистысп
+            </li>
+          </ol>
+        </div>
+      </div>
+      {/* END НАШИ Сотрудники */}
+
       {/* Связь */}
       <div className="contact contact-container">
-        <div className="content-contact">
-          <h1 className="h1_contact">Контакты</h1>
+        <div className="content_contact">
+          <h1 className="title">Контакты</h1>
           <div>
             <div>
               <p>
