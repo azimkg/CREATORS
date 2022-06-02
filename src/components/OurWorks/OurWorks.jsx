@@ -54,7 +54,7 @@ const OurWorks = () => {
             REBAROVJKFDNVNFoisoirgjaeonvo;anfovo;nvnvsfa;onv;aonfv;
           </p>
           <a target="_blank" href="https://deploy-steam.web.app/">
-            <button className="button__link">Перейти</button>
+            <button className="btn-23">Перейти</button>
           </a>
         </div>
       </div>
@@ -84,8 +84,8 @@ const OurWorks = () => {
             sfbvjenrn;’ANV;AN;AV
             REBAROVJKFDNVNFoisoirgjaeonvo;anfovo;nvnvsfa;onv;aonfv;
           </p>
-          <a target="_blank" href="#">
-            <button className="button__link">Перейти</button>
+          <a target="_blank" href="http://u129831.test-handyhost.ru/?q=">
+            <button className="btn-23">Перейти</button>
           </a>
         </div>
       </div>
@@ -116,7 +116,7 @@ const OurWorks = () => {
             REBAROVJKFDNVNFoisoirgjaeonvo;anfovo;nvnvsfa;onv;aonfv;
           </p>
           <a target="_blank" href="https://chat-380f1.web.app/">
-            <button className="button__link">Перейти</button>
+            <button className="btn-23">Перейти</button>
           </a>
         </div>
       </div>
@@ -149,7 +149,7 @@ const OurWorks = () => {
             REBAROVJKFDNVNFoisoirgjaeonvo;anfovo;nvnvsfa;onv;aonfv;
           </p>
           <a target="_blank" href="https://final-v2.vercel.app/">
-            <button className="button__link">Перейти</button>
+            <button className="btn-23">Перейти</button>
           </a>
         </div>
       </div>

@@ -10,6 +10,7 @@ import {
 } from "@ant-design/icons";
 import React from "react";
 import "./Footer.css";
+import logoPixel from "../Navbar/navbarimg/pixel.svg";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
       <div className="footer-main">
         <div className="footer-left">
           <h3>
-            CREATORS <span>Development</span>
+            <img src={logoPixel} alt="" style={{ width: "90px" }} />{" "}
           </h3>
           <p className="footer-left-links">
             <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contacts</a>|
@@ -36,11 +37,11 @@ const Footer = () => {
           <br />
           <br />
           <PhoneOutlined className="footer-center-icons" />
-          <p>+996 555 555 555</p>
+          <a href="tel:+996708082173">+996708082173</a>
           <br />
           <br />
           <MailOutlined className="footer-center-icons" />
-          <a href="#">creators@gmail.com</a>
+          <a href="mailto:azeldenbaev@gmail.com">pixelcompany7@gmail.com</a>
         </div>
 
         <div className="footer-right">
