@@ -1,59 +1,90 @@
-/* Связь с нами */
-.content-contact {
-  padding: 60px 100px 80px;
-}
-.contact {
-  font-family: Circe, sans-serif;
-  color: #ffffff;
-}
-
-.content-contact h1 {
-  font-size: 40px;
-  line-height: 45px;
-  color: #ffc531;
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Poppins:ital@0;1&display=swap");
+.about__title {
+  margin-top: 50px;
+  font-family: "Poppins" !important;
+  font-style: normal;
   font-weight: 400;
-  margin-bottom: 40px;
+  font-size: 56px;
+  line-height: 30px;
   text-align: center;
-  margin: 20px 0;
+  color: rgba(252, 244, 244, 0.85);
+  text-transform: uppercase;
 }
-
-.content-contact p {
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 30px;
-}
-
-.content-contact > * {
-  margin-top: 0;
-}
-
-.content-contact a {
-  color: rgb(130, 150, 249);
-}
-
-.content-contact a:hover {
-  border-bottom: 1px solid #383838;
-}
-/* end Связь с нами  */
-
-/* О нас */
-.container_us {
-  max-width: 1150px;
-
-  margin: 50px auto 0;
-}
-
-section {
-  font-weight: 500;
+.about__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
-  color: #91eb9b;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
 }
-.title {
-  color: #ffc531;
+.about__title-block {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.about__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about__block-item {
+  background: rgba(28, 5, 5, 0.11);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 304px;
+  margin: 30px 20px;
+  padding: 30px;
+}
+.about__block-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.about__block-circle {
+}
+.about__block-photo {
+  position: absolute;
+  top: 52px;
+  left: 53px;
+}
+.about__block-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.about__block-name h1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 30px;
   text-align: center;
 }
-/* end О нас */
-
-.advantages {
-  color: red;
+.about__block-name p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+@media only screen and (max-width: 780px) {
+  .about__title {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .about__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .about__block-name p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .about__block-name h1 {
+    font-size: 34px;
+  }
 }
