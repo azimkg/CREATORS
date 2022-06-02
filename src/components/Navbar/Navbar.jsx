@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logoPixel from "../Navbar/navbarimg/pixel.svg";
+import burgerLine from "../Navbar/navbarimg/menu1.png";
+import close from "../Navbar/navbarimg/cancel.png";
 
 const Navbar = () => {
   const [burger, setBurger] = useState(false);
@@ -28,24 +30,40 @@ const Navbar = () => {
             <img
               onClick={() => setBurger(true)}
               className="burger"
-              src="https://cdn1.iconfinder.com/data/icons/cool-cirlce/503/menu.png"
+              src={burgerLine}
               alt=""
             />
           </div>
         </div>
         {burger ? (
           <div className="main_burger">
-            <span onClick={() => setBurger(false)} className="close_burger">
-              x
-            </span>
+            <img
+              onClick={() => setBurger(false)}
+              className="close_burger"
+              src={close}
+              alt=""
+            />
             <div className="burger2">
-              <Link to="/" className="navbar_a1">
+              <Link
+                onClick={() => setBurger(false)}
+                to="/"
+                className="navbar_a1"
+              >
                 Home
               </Link>
-              <Link to="/about" className="navbar_a1">
+
+              <Link
+                to="/about"
+                className="navbar_a1"
+                onClick={() => setBurger(false)}
+              >
                 About
               </Link>
-              <Link to="/works" className="navbar_a1">
+              <Link
+                to="/works"
+                className="navbar_a1"
+                onClick={() => setBurger(false)}
+              >
                 Our works
               </Link>
             </div>
