@@ -20,7 +20,7 @@ const LandingPage = () => {
               Wow! see the latest update of the most recommended tools from
               reliable designers and developers
             </p>
-            <button className="rigth__btn">Explore more</button>
+            <button className=" btn-22 ">Explore more</button>
           </div>
         </div>
       </div>

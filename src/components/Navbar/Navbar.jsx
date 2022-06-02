@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import logoPixel from "../Navbar/navbarimg/pixel.svg";
+
 const Navbar = () => {
   const [burger, setBurger] = useState(false);
   return (
@@ -9,7 +11,7 @@ const Navbar = () => {
         <div className="navbar_inner">
           <div className="navbar_block1">
             <span className="navbar_h1">
-              <span className="navbar_title2">CREAT</span>ORS
+              <img src={logoPixel} alt="" style={{ width: "150px" }} />
             </span>
           </div>
 

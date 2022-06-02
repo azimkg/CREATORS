@@ -30,7 +30,7 @@
   max-width: 322px;
   max-height: 254px;
   margin-top: 60px;
-  border-radius: 15px;
+  /* border-radius: px; */
 }
 .ant-carousel .slick-dots li button {
   margin-top: 50px;
@@ -46,7 +46,7 @@
   height: 100%;
 }
 .carousel__down {
-  background: rgba(150, 200, 244, 0.06);
+  background: rgba(7, 78, 141, 0.714);
   backdrop-filter: blur(50px);
   border-radius: 25px;
   margin-top: 70px;

@@ -1,5 +1,5 @@
 .container__works {
-  background-color: #1e252b;
+  background-color: rgba(27, 141, 239, 1);
   max-width: 100%;
   width: 100%;
   overflow-x: auto;
@@ -72,7 +72,7 @@
   font-weight: 400;
   font-size: 50px;
   line-height: 30px;
-  color: #46a78f;
+  color: #20ef5b;
   text-shadow: 4px 3px 4px rgba(211, 162, 162, 0.2);
 }
 .container__right_titler {
@@ -94,7 +94,7 @@
   text-shadow: 4px 3px 4px rgba(211, 162, 162, 0.2);
 }
 .container__right_title-text {
-  color: rgb(151, 145, 145);
+  color: rgb(238, 231, 231);
   font-family: "Dancing Script", cursive;
 }
 .container__right_desc {
