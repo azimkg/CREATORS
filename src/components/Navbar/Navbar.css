@@ -4,6 +4,7 @@
   margin: 0 auto;
   height: 95px;
 }
+
 .navbar_inner {
   display: flex;
   justify-content: space-between;
@@ -94,21 +95,22 @@
   width: 100vw;
   height: 100%;
   z-index: 100;
-  background-color: rgba(30, 37, 43, 1);
+  background-color: rgba(31, 30, 43, 0.756);
   display: flex;
   flex-direction: column;
   align-items: center;
   position: fixed;
   overflow: hidden;
+  backdrop-filter: blur(6px);
 }
 .close_burger {
   color: white;
-  font-size: 30px;
   display: flex;
   justify-content: flex-end;
-  margin-right: 70px;
-  padding-top: 10px;
+  margin-right: 61px;
+  padding-top: 25px;
   align-self: flex-end;
+  width: 25px;
 }
 .navbar_a1 {
   color: white !important;
