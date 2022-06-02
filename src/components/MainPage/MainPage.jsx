@@ -19,13 +19,15 @@ const MainPage = () => {
             Antool is a web collection of information on paid or free Design and
             Development tools
           </h5>
-          <button className="main-page-button">
-            Order <img src={strelka} alt="" />{" "}
-          </button>
-          <div className="main-page-icon">
-            <img src={facebookImg} alt="" />
-            <img src={instagramImg} alt="" />
-            <img src={twitterImg} alt="" />
+          <div className="main-page-order">
+            <button className="main-page-button">
+              Order <img src={strelka} alt="" />{" "}
+            </button>
+            <div className="main-page-icon">
+              <img src={facebookImg} alt="" />
+              <img src={instagramImg} alt="" />
+              <img src={twitterImg} alt="" />
+            </div>
           </div>
         </div>
         <div className="main-page-rihgt-block">
