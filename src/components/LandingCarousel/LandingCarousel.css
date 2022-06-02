@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-.main_carousel {
-  background-color: #1e252b;
-}
 
 .inner_carousel {
   width: 80%;
@@ -14,13 +11,11 @@
 
 .slick-slide > div {
   margin: 0 10px;
-  /* padding: 0 3px; */
 }
 .slick-list {
   margin: 0 10px;
 }
 .card {
-  border: 1px solid #fff;
   background: #283036;
   border-radius: 8px;
   overflow: hidden;
@@ -37,4 +32,10 @@
   font-size: 1rem;
   margin: 10px 20px;
   color: #fff !important;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  .card {
+    height: 270px;
+  }
 }

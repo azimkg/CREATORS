@@ -4,7 +4,7 @@ import facebookImg from "../MainPage/MainPage-img/facebook.svg";
 import twitterImg from "../MainPage/MainPage-img/twitter.svg";
 import instagramImg from "../MainPage/MainPage-img/instagram.svg";
 import groupimg from "../MainPage/MainPage-img/Group1.png";
-import creators from "../MainPage/MainPage-img/CREATORS.png";
+import LogoPixel from "../Navbar/navbarimg/pixel.svg";
 import strelka from "../MainPage/MainPage-img/strelka.svg";
 import Works from "../Works/Works";
 import LandingPage from "../LandingPage/LandingPage";
@@ -13,7 +13,7 @@ import LandingCarousel from "../LandingCarousel/LandingCarousel";
 const MainPage = () => {
   return (
     <>
-      <div className="main-page-content">
+      <div className="main-page-content container">
         <div className="main-page-wrapper">
           <div className="main-page-left-block">
             <h1>
@@ -23,9 +23,7 @@ const MainPage = () => {
               Antool is a web collection of information on paid or free Design
               and Development tools
             </h5>
-            <button className="main-page-button">
-              Order <img src={strelka} alt="" />{" "}
-            </button>
+            <button className="main-page-button btn-2">Заказать</button>
             <div className="main-page-icon">
               <img src={facebookImg} alt="" />
               <img src={instagramImg} alt="" />
@@ -37,7 +35,7 @@ const MainPage = () => {
 
             <div className="main-page-creators-block">
               <div className="main-page-creators">
-                <img src={creators} alt="" />
+                <img src={LogoPixel} alt="" />
               </div>
             </div>
           </div>

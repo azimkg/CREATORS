@@ -34,7 +34,7 @@ const OurWorks = () => {
             style={{ borderRadius: "14px" }}
             afterChange={onChange}
           >
-            <div>
+            <div style={{ display: "inline-block", overflow: "hidden" }}>
               <img className="img__steam" src={steam} alt="" />
             </div>
             <div>

@@ -7,6 +7,10 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(27, 141, 239, 1) !important;
 }
 .container {
   max-width: 80%;
