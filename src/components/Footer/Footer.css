@@ -1,5 +1,6 @@
 footer {
   background-color: rgb(47, 122, 182);
+  margin-bottom: 0;
 }
 
 .footer-main {
@@ -42,21 +43,26 @@ li {
 }
 
 .footer-left a:hover {
-  color: rgb(243, 84, 35);
+  color: #33383b;;
 }
 .footer-left p {
   margin-top: 20px;
 }
-.footer-left h3 span {
-  color: rgb(243, 84, 35);
-  font: normal 29px "cookie", cursive;
+.footer-left h3 {
+  color: #ffff;
+  font: normal 29px;
+}
+
+.footer-left span{
+    color: #33383b;
+    font: normal 29px cursive;
 }
 
 .footer-left-copyright {
-  color: #8f9296;
+  color: #b1b4ba;
   font-size: 14px;
   font-weight: normal;
-  margin-top: 70px;
+  margin-top: 50px !important;
 }
 
 .footer-left-links a {
@@ -73,7 +79,7 @@ li {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color: #0875c3b5;
   border-radius: 2px;
   font-size: 20px;
   color: #ffff;
@@ -84,7 +90,7 @@ li {
 }
 
 .footer-right-icons ul li a:hover {
-  background-color: rgb(243, 84, 35);
+    background-color: #33383b;
 }
 
 .footer-center p {
@@ -102,8 +108,12 @@ li {
 }
 
 .footer-center a {
-  color: rgb(243, 84, 35);
+  color: #ffff;
   text-decoration: none;
+}
+
+.footer-center a:hover{
+    color: #33383b;;
 }
 
 .footer-center-icons {
