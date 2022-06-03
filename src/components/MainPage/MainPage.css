@@ -23,7 +23,7 @@
 
 .btn-2 {
   width: 150px;
-  height: 60px;
+  height: 55px;
   border: none;
   color: white;
   border-radius: 4px;
@@ -34,6 +34,7 @@
   position: relative;
   z-index: 1;
   background: #42fbf200;
+  margin-top: 10px;
 }
 .btn-2:hover {
   color: #fff;
@@ -118,10 +119,14 @@
   cursor: pointer;
   margin: 5px;
 }
-.main-page-left-block h1 {
-  font-size: 50px;
+.main-page-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 86px;
   width: 100%;
+  font-weight: 600;
   color: white;
+}
+.main-page-left-block h1 {
 }
 .main-page-left-block span {
   color: rgba(255, 110, 48, 1);

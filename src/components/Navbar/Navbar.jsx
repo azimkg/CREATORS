@@ -14,20 +14,22 @@ const Navbar = () => {
           <div className="navbar_inner">
             <div className="navbar_block1">
               <span className="navbar_h1">
-                <img src={logoPixel} alt="" style={{ width: "150px" }} />
+                <Link to="/">
+                  <img src={logoPixel} alt="" style={{ width: "150px" }} />
+                </Link>
               </span>
             </div>
 
             <div className="navbar_block2">
-              <Link to="/" className="navbar_a">
-                Home
-              </Link>
               <Link to="/about" className="navbar_a">
-                About
+                О НАС
               </Link>
               <Link to="/works" className="navbar_a">
-                Our works
+                НАШИ РАБОТЫ
               </Link>
+              <a href="#contact" className="navbar_a">
+                КОНТАКТЫ
+              </a>
               <img
                 onClick={() => setBurger(true)}
                 className="burger"
@@ -50,7 +52,7 @@ const Navbar = () => {
                   to="/"
                   className="navbar_a1"
                 >
-                  Home
+                  ГЛАВНАЯ
                 </Link>
 
                 <Link
@@ -58,15 +60,22 @@ const Navbar = () => {
                   className="navbar_a1"
                   onClick={() => setBurger(false)}
                 >
-                  About
+                  О НАС
                 </Link>
                 <Link
                   to="/works"
                   className="navbar_a1"
                   onClick={() => setBurger(false)}
                 >
-                  Our works
+                  НАШИ РАБОТЫ
                 </Link>
+                <a
+                  href="#contact"
+                  className="navbar_a1"
+                  onClick={() => setBurger(false)}
+                >
+                  КОНТАКТЫ
+                </a>
               </div>
             </div>
           ) : null}
