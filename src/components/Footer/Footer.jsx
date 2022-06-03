@@ -41,7 +41,7 @@ const Footer = () => {
           <br />
           <br />
           <MailOutlined className="footer-center-icons" />
-          <a href="mailto:azeldenbaev@gmail.com">pixelcompany7@gmail.com</a>
+          <a href="mailto:pixelveb@gmail.com">pixelveb@gmail.com</a>
         </div>
 
         <div className="footer-right">

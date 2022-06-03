@@ -14,7 +14,9 @@ const Navbar = () => {
           <div className="navbar_inner">
             <div className="navbar_block1">
               <span className="navbar_h1">
-                <img src={logoPixel} alt="" style={{ width: "150px" }} />
+                <Link to="/">
+                  <img src={logoPixel} alt="" style={{ width: "150px" }} />
+                </Link>
               </span>
             </div>
 
