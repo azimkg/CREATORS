@@ -15,7 +15,7 @@ import logoPixel from "../Navbar/navbarimg/pixel.svg";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-main">
+      <div id="contact" className="footer-main">
         <div className="footer-left">
           <h3>
             <img src={logoPixel} alt="" style={{ width: "90px" }} />{" "}

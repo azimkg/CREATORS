@@ -16,12 +16,12 @@ const MainPage = () => {
       <div className="main-page-content container">
         <div className="main-page-wrapper">
           <div className="main-page-left-block">
-            <h1>
-              Awesome tools for Designer & Developer <span>.</span>{" "}
+            <h1 id="main-page-title">
+              Современный сайт как залог успешного бизнеса
             </h1>
             <h5>
-              Antool is a web collection of information on paid or free Design
-              and Development tools
+              Наша компания занимается разработкой и созданием web-сайтов любой
+              сложности. Мы помогаем реализовать все Ваши идеи и пожелания.
             </h5>
             <button className="main-page-button btn-2">Заказать</button>
             <div className="main-page-icon">

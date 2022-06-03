@@ -1,20 +1,19 @@
 .works__title {
-  margin: 20px auto 0;
+  padding-top: 50px;
+  margin: 30px auto;
   max-width: 455px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 130%;
   text-align: center;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.952);
 }
 .works__title-text {
   margin-top: 35px;
   margin: 0 auto;
   text-align: center;
-  max-width: 455px;
-  font-family: "Poppins";
+  max-width: 555px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -27,10 +26,13 @@
   justify-content: space-between;
 }
 .carousel-block__slide {
-  max-width: 322px;
-  max-height: 254px;
+  max-width: 320px;
+  height: 204px;
   margin-top: 60px;
-  /* border-radius: px; */
+  object-fit: cover;
+}
+.carousel-block__slide img {
+  max-height: 204px;
 }
 .ant-carousel .slick-dots li button {
   margin-top: 50px;
@@ -57,7 +59,6 @@
 }
 .carousel__down h4 {
   padding-top: 20px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -73,8 +74,10 @@
   margin-top: 20px;
 }
 .carousel__down-block img {
-  max-width: fit-content;
+  width: 200px;
+  object-fit: 100%;
   margin-top: 20px;
+  height: 80px;
 }
 @media only screen and (max-width: 1180px) {
   .carousel__down-block {

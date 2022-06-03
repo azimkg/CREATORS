@@ -11,10 +11,11 @@ const About = () => {
         <div className="container">
           <h1 className="about__title">О нас</h1>
           <p className="about__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet
-            reprehenderit quae unde id architecto eligendi. Omnis reprehenderit
-            tempora eius perspiciatis quis sed illum et voluptates recusandae.
-            Et, excepturi nihil!
+            Мы амбициозная группа творческих людей, которые просто хотят внести
+            свой вклад в развитие IT индустрии. Мы выражаем себя через наши
+            работы, мы не просто пишем код мы создаем культуру, которая всегда
+            преследует оптимальные решения. Простота, функциональность и
+            элегантность — это то, к чему мы стремимся в нашей работе.
           </p>
           <h1 className="about__title about__title-block">Наши сотрудники</h1>
           <div className="about__block">

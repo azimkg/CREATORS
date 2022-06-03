@@ -2,8 +2,54 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { cartCarousel } from "./carouselData";
+// import { cartCarousel } from "./carouselData";
 import "./LandingCarousel.css";
+
+import steam4 from "../Images/4.png";
+import steam5 from "../Images/5.png";
+import steam6 from "../Images/6.png";
+import steam10 from "../Images/10.png";
+import steam11 from "../Images/11.png";
+import steam12 from "../Images/12.png";
+
+export const cartCarousel = [
+  {
+    id: 0,
+    name: "HBO MAX",
+    img: steam4,
+    category: "spa",
+  },
+  {
+    id: 12,
+    name: "first project",
+    img: steam5,
+    category: "spa",
+  },
+  {
+    id: 13,
+    name: "first project",
+    img: steam6,
+    category: "spa",
+  },
+  {
+    id: 2,
+    name: "first project",
+    img: steam10,
+    category: "landing",
+  },
+  {
+    id: 3,
+    name: "first project",
+    img: steam11,
+    category: "vizitka",
+  },
+  {
+    id: 4,
+    name: "first project",
+    img: steam12,
+    category: "something",
+  },
+];
 
 const LandingCarousel = () => {
   const settings = {

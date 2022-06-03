@@ -21,15 +21,15 @@ const Navbar = () => {
             </div>
 
             <div className="navbar_block2">
-              <Link to="/" className="navbar_a">
-                Home
-              </Link>
               <Link to="/about" className="navbar_a">
-                About
+                О НАС
               </Link>
               <Link to="/works" className="navbar_a">
-                Our works
+                НАШИ РАБОТЫ
               </Link>
+              <a href="#contact" className="navbar_a">
+                КОНТАКТЫ
+              </a>
               <img
                 onClick={() => setBurger(true)}
                 className="burger"
@@ -52,7 +52,7 @@ const Navbar = () => {
                   to="/"
                   className="navbar_a1"
                 >
-                  Home
+                  ГЛАВНАЯ
                 </Link>
 
                 <Link
@@ -60,15 +60,22 @@ const Navbar = () => {
                   className="navbar_a1"
                   onClick={() => setBurger(false)}
                 >
-                  About
+                  О НАС
                 </Link>
                 <Link
                   to="/works"
                   className="navbar_a1"
                   onClick={() => setBurger(false)}
                 >
-                  Our works
+                  НАШИ РАБОТЫ
                 </Link>
+                <a
+                  href="#contact"
+                  className="navbar_a1"
+                  onClick={() => setBurger(false)}
+                >
+                  КОНТАКТЫ
+                </a>
               </div>
             </div>
           ) : null}
