@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Poppins:ital@0;1&display=swap");
 .about__title {
   margin-top: 50px;
-  font-family: "Poppins" !important;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -11,7 +10,7 @@
   text-transform: uppercase;
 }
 .about__text {
-  font-family: "Poppins";
+  margin-top: 50px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -57,7 +56,6 @@
   margin-top: 30px;
 }
 .about__block-name h1 {
-  font-family: "Poppins";
   font-weight: 500;
   font-size: 38px;
   line-height: 30px;
