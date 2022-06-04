@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel } from "antd";
 import "./Works.css";
-import image1 from "../Images/logos_wordpress.png";
 import steam from "../Images/1.png";
 import steam2 from "../Images/2.png";
 import steam3 from "../Images/3.png";
@@ -11,9 +10,10 @@ import steam6 from "../Images/6.png";
 import steam7 from "../Images/7.png";
 import steam8 from "../Images/8.png";
 import steam9 from "../Images/9.png";
-import steam10 from "../Images/10.png";
-import steam11 from "../Images/11.png";
-import steam12 from "../Images/12.png";
+import logo from "../Images/Creators.png";
+import logo2 from "../Images/Frame 2.png";
+import logo3 from "../Images/Group 1449.png";
+import logo4 from "../Images/Group.png";
 
 const Works = () => {
   return (
@@ -50,16 +50,10 @@ const Works = () => {
       <div className="carousel__down">
         <h4>Наши партнеры</h4>
         <div className="carousel__down-block">
-          <img
-            src="https://elitka.kg/images/builder/61890e864fc80_61890e864e5d1.png"
-            alt=""
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Logotip_OPTIMA-BANK.jpg"
-            alt=""
-          />
-          <img src={image1} alt="" />
-          <img src={image1} alt="" />
+          <img className="carousel_img11" src={logo4} alt="logo" />
+          <img className="carousel_img112" src={logo} alt="logo" />
+          <img className="carousel_img11" src={logo2} alt="logo" />
+          <img className="carousel_img11" src={logo3} alt="logo" />
         </div>
       </div>
     </div>

@@ -15,39 +15,29 @@ import steam12 from "../Images/12.png";
 export const cartCarousel = [
   {
     id: 0,
-    name: "HBO MAX",
-    img: steam4,
-    category: "spa",
+    img: steam5,
   },
   {
     id: 12,
-    name: "first project",
-    img: steam5,
-    category: "spa",
+    name: "HBO MAX",
+    img: steam4,
   },
   {
     id: 13,
-    name: "first project",
     img: steam6,
-    category: "spa",
   },
   {
     id: 2,
-    name: "first project",
-    img: steam10,
-    category: "landing",
+    img: steam11,
   },
   {
     id: 3,
-    name: "first project",
-    img: steam11,
-    category: "vizitka",
+    name: "KyrgyzBuy",
+    img: steam10,
   },
   {
     id: 4,
-    name: "first project",
     img: steam12,
-    category: "something",
   },
 ];
 
@@ -95,9 +85,6 @@ const LandingCarousel = () => {
               <div className="card_top">
                 <img className="card-img" src={item.img} alt="card_img" />
                 <h2 className="card-title">{item.name}</h2>
-              </div>
-              <div>
-                <p className="card-title">{item.category}</p>
               </div>
             </div>
           ))}

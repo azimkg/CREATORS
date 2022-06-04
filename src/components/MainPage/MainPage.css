@@ -103,13 +103,13 @@
 }
 
 .main-page-icon {
-  background: rgb(67, 56, 56);
+  background: rgb(24, 67, 70);
   position: absolute;
   position: fixed;
   display: flex;
   width: 40px;
   height: 130px;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   flex-direction: column;
   /* margin-top: 20px; */
   left: 0;
@@ -118,6 +118,13 @@
   width: 30px;
   cursor: pointer;
   margin: 5px;
+}
+.main-page-icon img:hover {
+  background-color: rgb(47, 122, 182);
+  /* width: 100%; */
+  /* padding: 10px; */
+  /* box-sizing: border-box; */
+  border-radius: 50%;
 }
 .main-page-title {
   font-family: "Courier New", Courier, monospace;
@@ -208,6 +215,17 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+  }
+  .main-page-icon {
+    width: 30px;
+    height: 100px;
+    left: 0;
+    top: 200px;
+  }
+  .main-page-icon img {
+    width: 20px;
+    cursor: pointer;
+    margin: 5px;
   }
 }
 .main-page-left-block h5 {

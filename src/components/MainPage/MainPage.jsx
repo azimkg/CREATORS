@@ -23,11 +23,13 @@ const MainPage = () => {
               Наша компания занимается разработкой и созданием web-сайтов любой
               сложности. Мы помогаем реализовать все Ваши идеи и пожелания.
             </h5>
-            <button className="main-page-button btn-2">Заказать</button>
+            <a href="mailto:pixeldevs@aol.com">
+              <button className="main-page-button btn-2">Заказать</button>
+            </a>
             <div className="main-page-icon">
-              <img src={facebookImg} alt="" />
-              <img src={instagramImg} alt="" />
-              <img src={twitterImg} alt="" />
+              <img src={facebookImg} alt="facebook" />
+              <img src={instagramImg} alt="instagram" />
+              <img src={twitterImg} alt="telegram" />
             </div>
           </div>
           <div className="main-page-rihgt-block">
