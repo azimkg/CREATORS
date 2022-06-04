@@ -127,9 +127,28 @@ li {
   font-weight: normal;
   margin: 0;
 }
+
+@media only screen and (max-width: 544px){
+  .footer-company-about{
+    padding-top: 20px;
+    width: 300px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
-  .footer-main div {
+  /* .footer-main div {
     max-width: 200px;
+  } */
+  .footer-company-about{
+    width: 210px;
+  }
+  .footer_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-left-links a{
+    margin-right: 5px;
   }
   p {
     margin-top: 25px;
@@ -139,4 +158,11 @@ li {
     display: flex;
     flex-wrap: wrap;
   }
+}
+
+@media only screen and (max-width: 325px) {
+  .footer-left h3{
+    font-size: 23px;
+  }
+ 
 }

@@ -17,14 +17,13 @@ const Footer = () => {
       <div className="footer-main">
         <div className="footer-left">
           <h3>
-            CREATORS <span>Development</span>
+            PIXEL <span>Development</span>
           </h3>
           <p className="footer-left-links">
-            <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contacts</a>|
-            <a href="#">Blog</a>
+            <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contacts</a>
           </p>
           <p className="footer-left-copyright">
-            Copyright © 2022 <strong>CREATORS </strong>All rights reserved
+            Copyright © 2022 <strong>PIXEL </strong>All rights reserved
           </p>
         </div>
 
@@ -40,13 +39,13 @@ const Footer = () => {
           <br />
           <br />
           <MailOutlined className="footer-center-icons" />
-          <a href="#">creators@gmail.com</a>
+          <a href="#">pixeldevs@aol.com</a>
         </div>
 
         <div className="footer-right">
           <p className="footer-company-about">
             <span>About the company</span>
-            <strong>CREATORS Development</strong> Lorem ipsum dolor sit amet
+            <strong>PIXEL Development</strong> Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Atque hic deserunt tempore odit totam
             suscipit labore aperiam id eum similique!
           </p>
