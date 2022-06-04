@@ -31,7 +31,10 @@ const OurWorks = () => {
         <div className="container__left" data-aos="zoom-out-right">
           <Carousel
             className="container__carousel"
-            style={{ borderRadius: "14px" }}
+            style={{
+              borderRadius: "14px",
+              backgroundColor: "rgba(27, 141, 239, 1)",
+            }}
             afterChange={onChange}
           >
             <div style={{ display: "inline-block", overflow: "hidden" }}>
@@ -48,10 +51,10 @@ const OurWorks = () => {
         <div className="container__right" data-aos="fade-up-left">
           <h2 className="container__right_titlet">STEAM</h2>
           <p className="container__right_desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem
-            ipsummndbkjdakfbvkkafbvkba;dbvlfdbjvkbjad;voaebbvbaebj орвафвкгрпови
-            sfbvjenrn;’ANV;AN;AV
-            REBAROVJKFDNVNFoisoirgjaeonvo;anfovo;nvnvsfa;onv;aonfv;
+            В результате проведенных работ был создан современный продающий сайт
+            с уникальным креативным дизайном и адаптацией под все устройства.
+            Этот ресурс достиг поставленной заказчиком цели и помогли ему
+            перезапустить свои бизнес-процессы в области продаж.
           </p>
           <a target="_blank" href="https://deploy-steam.web.app/">
             <button className="btn-23">Перейти</button>
@@ -62,7 +65,10 @@ const OurWorks = () => {
         <div className="container__left" data-aos="zoom-out-right">
           <Carousel
             className="container__carousel"
-            style={{ borderRadius: "14px" }}
+            style={{
+              borderRadius: "14px",
+              backgroundColor: "rgba(27, 141, 239, 1)",
+            }}
             afterChange={onChange}
           >
             <div>
@@ -79,10 +85,10 @@ const OurWorks = () => {
         <div className="container__right" data-aos="fade-up-left">
           <h2 className="container__right_title">HBO MAX</h2>
           <p className="container__right_desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem
-            ipsummndbkjdakfbvkkafbvkba;dbvlfdbjvkbjad;voaebbvbaebj орвафвкгрпови
-            sfbvjenrn;’ANV;AN;AV
-            REBAROVJKFDNVNFoisoirgjaeonvo;anfovo;nvnvsfa;onv;aonfv;
+            В результате проведенных работ был создан современный продающий сайт
+            с уникальным креативным дизайном и адаптацией под все устройства.
+            Этот ресурс достиг поставленной заказчиком цели и помогли ему
+            перезапустить свои бизнес-процессы в области продаж.
           </p>
           <a target="_blank" href="http://u129831.test-handyhost.ru/?q=">
             <button className="btn-23">Перейти</button>
@@ -93,10 +99,13 @@ const OurWorks = () => {
         <div className="container__left" data-aos="zoom-out-right">
           <Carousel
             className="container__carousel"
-            style={{ borderRadius: "14px" }}
+            style={{
+              borderRadius: "14px",
+              backgroundColor: "rgba(27, 141, 239, 1)",
+            }}
             afterChange={onChange}
           >
-            <div>
+            <div style={{ backgroundColor: "rgba(27, 141, 239, 1)" }}>
               <img className="img__steam" src={steam7} alt="" />
             </div>
             <div>
@@ -110,10 +119,10 @@ const OurWorks = () => {
         <div className="container__right" data-aos="fade-up-left">
           <h2 className="container__right_titler">ROLEX</h2>
           <p className="container__right_desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem
-            ipsummndbkjdakfbvkkafbvkba;dbvlfdbjvkbjad;voaebbvbaebj орвафвкгрпови
-            sfbvjenrn;’ANV;AN;AV
-            REBAROVJKFDNVNFoisoirgjaeonvo;anfovo;nvnvsfa;onv;aonfv;
+            В результате проведенных работ был создан современный продающий сайт
+            с уникальным креативным дизайном и адаптацией под все устройства.
+            Этот ресурс достиг поставленной заказчиком цели и помогли ему
+            перезапустить свои бизнес-процессы в области продаж.
           </p>
           <a target="_blank" href="https://chat-380f1.web.app/">
             <button className="btn-23">Перейти</button>
@@ -124,7 +133,10 @@ const OurWorks = () => {
         <div className="container__left" data-aos="zoom-out-right">
           <Carousel
             className="container__carousel"
-            style={{ borderRadius: "14px" }}
+            style={{
+              borderRadius: "14px",
+              backgroundColor: "rgba(27, 141, 239, 1)",
+            }}
             afterChange={onChange}
           >
             <div>
@@ -143,10 +155,10 @@ const OurWorks = () => {
             <span className="container__right_title-text">KYRGYZ</span>BUY
           </h2>
           <p className="container__right_desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.lorem
-            ipsummndbkjdakfbvkkafbvkba;dbvlfdbjvkbjad;voaebbvbaebj орвафвкгрпови
-            sfbvjenrn;’ANV;AN;AV
-            REBAROVJKFDNVNFoisoirgjaeonvo;anfovo;nvnvsfa;onv;aonfv;
+            В результате проведенных работ был создан современный продающий сайт
+            с уникальным креативным дизайном и адаптацией под все устройства.
+            Этот ресурс достиг поставленной заказчиком цели и помогли ему
+            перезапустить свои бизнес-процессы в области продаж.
           </p>
           <a target="_blank" href="https://final-v2.vercel.app/">
             <button className="btn-23">Перейти</button>

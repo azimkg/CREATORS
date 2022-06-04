@@ -11,6 +11,7 @@ import {
 import React from "react";
 import "./Footer.css";
 import logoPixel from "../Navbar/navbarimg/pixel.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -21,11 +22,11 @@ const Footer = () => {
             <img src={logoPixel} alt="" style={{ width: "90px" }} />{" "}
           </h3>
           <p className="footer-left-links">
-            <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contacts</a>|
-            <a href="#">Blog</a>
+            <Link to="/">Главная</Link>|<Link to="/about">О нас</Link>|
+            <Link to="/works">Наши работы</Link>
           </p>
           <p className="footer-left-copyright">
-            Copyright © 2022 <strong>CREATORS </strong>All rights reserved
+            Copyright © 2022 <strong>PIXEL </strong>All rights reserved
           </p>
         </div>
 
@@ -41,15 +42,15 @@ const Footer = () => {
           <br />
           <br />
           <MailOutlined className="footer-center-icons" />
-          <a href="mailto:pixelveb@gmail.com">pixelveb@gmail.com</a>
+          <a href="mailto:pixeldevs@aol.com">pixeldevs@aol.com</a>
         </div>
 
         <div className="footer-right">
           <p className="footer-company-about">
             <span>About the company</span>
-            <strong>CREATORS Development</strong> Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Atque hic deserunt tempore odit totam
-            suscipit labore aperiam id eum similique!
+            <strong> PIXEL</strong> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Atque hic deserunt tempore odit totam suscipit
+            labore aperiam id eum similique!
           </p>
           <div className="footer-right-icons">
             <ul>
