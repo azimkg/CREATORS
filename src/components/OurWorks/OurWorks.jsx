@@ -26,7 +26,7 @@ const OurWorks = () => {
 
   return (
     <div className="container__works">
-      <h2 className="container__title">Our works</h2>
+      <h2 className="container__title">Наши работы</h2>
       <div className="container__block">
         <div className="container__left" data-aos="zoom-out-right">
           <Carousel
@@ -51,10 +51,11 @@ const OurWorks = () => {
         <div className="container__right" data-aos="fade-up-left">
           <h2 className="container__right_titlet">STEAM</h2>
           <p className="container__right_desc">
-            В результате проведенных работ был создан современный продающий сайт
-            с уникальным креативным дизайном и адаптацией под все устройства.
-            Этот ресурс достиг поставленной заказчиком цели и помогли ему
-            перезапустить свои бизнес-процессы в области продаж.
+            Создание сайта для стартапа. Сервис цифрового распространения
+            компьютерных игр и программ, разработанный и поддерживаемый
+            компанией Valve. Steam выполняет роль средства технической защиты
+            авторских прав, платформы для многопользовательских игр и потокового
+            вещания, а также социальной сети для игроков.
           </p>
           <a target="_blank" href="https://deploy-steam.web.app/">
             <button className="btn-23">Перейти</button>
@@ -85,10 +86,8 @@ const OurWorks = () => {
         <div className="container__right" data-aos="fade-up-left">
           <h2 className="container__right_title">HBO MAX</h2>
           <p className="container__right_desc">
-            В результате проведенных работ был создан современный продающий сайт
-            с уникальным креативным дизайном и адаптацией под все устройства.
-            Этот ресурс достиг поставленной заказчиком цели и помогли ему
-            перезапустить свои бизнес-процессы в области продаж.
+            Разработка интерактивного сайта для компании "HBO MAX" - Сервиса по
+            просмотру фильмов в высоком качестве.
           </p>
           <a target="_blank" href="http://u129831.test-handyhost.ru/?q=">
             <button className="btn-23">Перейти</button>
@@ -119,10 +118,8 @@ const OurWorks = () => {
         <div className="container__right" data-aos="fade-up-left">
           <h2 className="container__right_titler">ROLEX</h2>
           <p className="container__right_desc">
-            В результате проведенных работ был создан современный продающий сайт
-            с уникальным креативным дизайном и адаптацией под все устройства.
-            Этот ресурс достиг поставленной заказчиком цели и помогли ему
-            перезапустить свои бизнес-процессы в области продаж.
+            Разработка корпоративного сайта одного из крупнейших дистрибьюторов
+            представителей часов - компании Rolex
           </p>
           <a target="_blank" href="https://chat-380f1.web.app/">
             <button className="btn-23">Перейти</button>
@@ -155,10 +152,8 @@ const OurWorks = () => {
             <span className="container__right_title-text">KYRGYZ</span>BUY
           </h2>
           <p className="container__right_desc">
-            В результате проведенных работ был создан современный продающий сайт
-            с уникальным креативным дизайном и адаптацией под все устройства.
-            Этот ресурс достиг поставленной заказчиком цели и помогли ему
-            перезапустить свои бизнес-процессы в области продаж.
+            Интернет магазин для единственного представителя национальных
+            достопремичательностей в Кыргызстане.
           </p>
           <a target="_blank" href="https://final-v2.vercel.app/">
             <button className="btn-23">Перейти</button>

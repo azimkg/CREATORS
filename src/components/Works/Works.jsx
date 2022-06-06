@@ -14,14 +14,18 @@ import logo from "../Images/Creators.png";
 import logo2 from "../Images/Frame 2.png";
 import logo3 from "../Images/Group 1449.png";
 import logo4 from "../Images/Group.png";
+import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
     <div className="works container">
       <h2 className="works__title">Наше Портфолио</h2>
       <h4 className="works__title-text">
-        Здесь представлены наши последние работы. Полный список наших работ Вы
-        найдёте на странице
+        Здесь представлены наши последние работы. Полный список наших работ вы
+        найдёте по{" "}
+        <Link style={{ color: "white" }} to="/works">
+          ссылке
+        </Link>
       </h4>
       <Carousel autoplay>
         <div className="carousel-block">
