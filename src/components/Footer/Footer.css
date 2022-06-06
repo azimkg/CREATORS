@@ -5,7 +5,7 @@ footer {
 
 .footer-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 500px;
   color: #ffff;
@@ -128,6 +128,16 @@ li {
   font-size: 13px;
   font-weight: normal;
   margin: 0;
+  width: 320px;
+}
+@media (max-width: 880px) {
+  .footer-right {
+    width: 350px;
+    margin-top: 30px;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 480px) {
   .footer-main div {
@@ -140,5 +150,9 @@ li {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+  }
+  .footer-right {
+    width: 200px;
+    margin-top: 20px;
   }
 }

@@ -45,9 +45,12 @@
 }
 
 .about__block-photo {
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 52px;
-  left: 53px;
+  top: 20px;
+  left: 20px;
+  border-radius: 150px;
 }
 .about__block-name {
   display: flex;

@@ -26,7 +26,7 @@ const OurWorks = () => {
 
   return (
     <div className="container__works">
-      <h2 className="container__title">Our works</h2>
+      <h2 className="container__title">Наши работы</h2>
       <div className="container__block">
         <div className="container__left" data-aos="zoom-out-right">
           <Carousel
@@ -152,8 +152,8 @@ const OurWorks = () => {
             <span className="container__right_title-text">KYRGYZ</span>BUY
           </h2>
           <p className="container__right_desc">
-            Интернет магазин для единственного представителя национальной
-            достопремичательности в Кыргызстане.
+            Интернет магазин для единственного представителя национальных
+            достопремичательностей в Кыргызстане.
           </p>
           <a target="_blank" href="https://final-v2.vercel.app/">
             <button className="btn-23">Перейти</button>

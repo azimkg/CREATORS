@@ -53,11 +53,12 @@
   background: rgba(30, 92, 147, 0.714);
   backdrop-filter: blur(50px);
   border-radius: 5px;
-  margin-top: 70px;
+  margin-top: 130px;
   max-width: 100%;
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
+
   box-shadow: 0px 0px 20px 13px rgba(34, 60, 80, 0.2);
 }
 .carousel__down h4 {
@@ -124,6 +125,9 @@
   .works {
     margin-top: 50px !important;
   }
+  .carousel__down {
+    margin-top: 90px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .works__title {
@@ -137,6 +141,9 @@
     height: 160px;
     margin-top: 20px;
     border-radius: 15px;
+  }
+  .carousel__down {
+    margin-top: 70px;
   }
   .carousel__down h4 {
     font-size: 20px;

@@ -84,7 +84,7 @@ const LandingCarousel = () => {
             <div key={item.id} className="card">
               <div className="card_top">
                 <img className="card-img" src={item.img} alt="card_img" />
-                <h2 className="card-title">{item.name}</h2>
+                {/* <h2 className="card-title">{item.name}</h2> */}
               </div>
             </div>
           ))}

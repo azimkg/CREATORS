@@ -1,15 +1,20 @@
 import React from "react";
 import "./About.css";
 import circle from "../Images/circle.svg";
+import eldiyar from "./eldiyar1.png";
 import photo1 from "../Images/photo1.png";
+import photo2 from "./eradil.jpg";
+import photo3 from "./Beka.jpg";
+import photo4 from "./daniar.png";
+import photo5 from "./azim.png";
+import photo6 from "./absa.png";
 
 const About = () => {
   return (
     <>
-      {/* О нас */}
       <div>
         <div className="container">
-          <h1 className="about__title">О нас</h1>
+          <h2 className="about__title">О нас</h2>
           <p className="about__text">
             Мы амбициозная группа творческих людей, которые просто хотят внести
             свой вклад в развитие IT индустрии. Мы выражаем себя через наши
@@ -17,103 +22,87 @@ const About = () => {
             преследует оптимальные решения. Простота, функциональность и
             элегантность — это то, к чему мы стремимся в нашей работе.
           </p>
-          <h1 className="about__title about__title-block">Наши сотрудники</h1>
+          <h2 className="about__title about__title-block">Наша команда</h2>
           <div className="about__block">
             <div className="about__block-item">
               <div className="about__block-image">
                 <img src={circle} alt="" className="about__block-circle" />
-                <img src={photo1} alt="" className="about__block-photo" />
+                <img src={photo4} alt="" className="about__block-photo" />
               </div>
               <div className="about__block-name">
-                <h1>SAM</h1>
-                <p>
-                  jhdbfsjdbj sdf vkd fskv jd ksj fvk ds fv ksd fvk sdf vsdkf
-                  vkds fvjh sdj fv vjksdf vksdfvkjdsfviodfsvnadv
-                  ldsfkvjnsdfnvndsfvnjksdfvndf djskfbvjbsdfjvnsfdjv
+                <h2 style={{ fontFamily: "Poppins", color: "white" }}>
+                  Данияр
+                </h2>
+                <p style={{ fontFamily: "Poppins", color: "white" }}>
+                  Генеральный директор
                 </p>
               </div>
             </div>
             <div className="about__block-item">
               <div className="about__block-image">
                 <img src={circle} alt="" className="about__block-circle" />
-                <img src={photo1} alt="" className="about__block-photo" />
+                <img src={photo2} alt="" className="about__block-photo" />
               </div>
               <div className="about__block-name">
-                <h1>SAM</h1>
-                <p>
-                  jhdbfsjdbj sdf vkd fskv jd ksj fvk ds fv ksd fvk sdf vsdkf
-                  vkds fvjh sdj fv vjksdf vksdfvkjdsfviodfsvnadv
-                  ldsfkvjnsdfnvndsfvnjksdfvndf djskfbvjbsdfjvnsfdjv
+                <h2 style={{ fontFamily: "Poppins", color: "white" }}>
+                  Эрадил
+                </h2>
+                <p style={{ fontFamily: "Poppins", color: "white" }}>
+                  Project - менеджер
                 </p>
               </div>
             </div>
             <div className="about__block-item">
               <div className="about__block-image">
                 <img src={circle} alt="" className="about__block-circle" />
-                <img src={photo1} alt="" className="about__block-photo" />
+                <img src={eldiyar} alt="" className="about__block-photo" />
               </div>
               <div className="about__block-name">
-                <h1>SAM</h1>
-                <p>
-                  jhdbfsjdbj sdf vkd fskv jd ksj fvk ds fv ksd fvk sdf vsdkf
-                  vkds fvjh sdj fv vjksdf vksdfvkjdsfviodfsvnadv
-                  ldsfkvjnsdfnvndsfvnjksdfvndf djskfbvjbsdfjvnsfdjv
+                <h2 style={{ fontFamily: "Poppins", color: "white" }}>
+                  Эльдияр
+                </h2>
+                <p style={{ fontFamily: "Poppins", color: "white" }}>
+                  Frontend - разработчик
                 </p>
               </div>
             </div>
             <div className="about__block-item">
               <div className="about__block-image">
                 <img src={circle} alt="" className="about__block-circle" />
-                <img src={photo1} alt="" className="about__block-photo" />
+                <img src={photo5} alt="" className="about__block-photo" />
               </div>
               <div className="about__block-name">
-                <h1>SAM</h1>
-                <p>
-                  jhdbfsjdbj sdf vkd fskv jd ksj fvk ds fv ksd fvk sdf vsdkf
-                  vkds fvjh sdj fv vjksdf vksdfvkjdsfviodfsvnadv
-                  ldsfkvjnsdfnvndsfvnjksdfvndf djskfbvjbsdfjvnsfdjv
+                <h2 style={{ fontFamily: "Poppins", color: "white" }}>Азим</h2>
+                <p style={{ fontFamily: "Poppins", color: "white" }}>
+                  Fullstack - разработчик
                 </p>
               </div>
             </div>
             <div className="about__block-item">
               <div className="about__block-image">
                 <img src={circle} alt="" className="about__block-circle" />
-                <img src={photo1} alt="" className="about__block-photo" />
+                <img src={photo3} alt="" className="about__block-photo" />
               </div>
               <div className="about__block-name">
-                <h1>SAM</h1>
-                <p>
-                  jhdbfsjdbj sdf vkd fskv jd ksj fvk ds fv ksd fvk sdf vsdkf
-                  vkds fvjh sdj fv vjksdf vksdfvkjdsfviodfsvnadv
-                  ldsfkvjnsdfnvndsfvnjksdfvndf djskfbvjbsdfjvnsfdjv
+                <h2 style={{ fontFamily: "Poppins", color: "white" }}>
+                  Бекболсун
+                </h2>
+                <p style={{ fontFamily: "Poppins", color: "white" }}>
+                  Backend - разработчик
                 </p>
               </div>
             </div>
             <div className="about__block-item">
               <div className="about__block-image">
                 <img src={circle} alt="" className="about__block-circle" />
-                <img src={photo1} alt="" className="about__block-photo" />
+                <img src={photo6} alt="" className="about__block-photo" />
               </div>
               <div className="about__block-name">
-                <h1>SAM</h1>
-                <p>
-                  jhdbfsjdbj sdf vkd fskv jd ksj fvk ds fv ksd fvk sdf vsdkf
-                  vkds fvjh sdj fv vjksdf vksdfvkjdsfviodfsvnadv
-                  ldsfkvjnsdfnvndsfvnjksdfvndf djskfbvjbsdfjvnsfdjv
-                </p>
-              </div>
-            </div>
-            <div className="about__block-item">
-              <div className="about__block-image">
-                <img src={circle} alt="" className="about__block-circle" />
-                <img src={photo1} alt="" className="about__block-photo" />
-              </div>
-              <div className="about__block-name">
-                <h1>SAM</h1>
-                <p>
-                  jhdbfsjdbj sdf vkd fskv jd ksj fvk ds fv ksd fvk sdf vsdkf
-                  vkds fvjh sdj fv vjksdf vksdfvkjdsfviodfsvnadv
-                  ldsfkvjnsdfnvndsfvnjksdfvndf djskfbvjbsdfjvnsfdjv
+                <h2 style={{ fontFamily: "Poppins", color: "white" }}>
+                  Абсамат
+                </h2>
+                <p style={{ fontFamily: "Poppins", color: "white" }}>
+                  UI-UX дизайнер
                 </p>
               </div>
             </div>

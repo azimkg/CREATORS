@@ -26,7 +26,7 @@ const Footer = () => {
             <Link to="/works">Наши работы</Link>
           </p>
           <p className="footer-left-copyright">
-            Copyright © 2022 <strong>PIXEL </strong>All rights reserved
+            Copyright © 2022 <strong>PIXEL </strong>Все права защищены
           </p>
         </div>
 
@@ -47,36 +47,30 @@ const Footer = () => {
 
         <div className="footer-right">
           <p className="footer-company-about">
-            <span>About the company</span>
-            <strong> PIXEL</strong> Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Atque hic deserunt tempore odit totam suscipit
-            labore aperiam id eum similique!
+            <p>
+              Our company is engaged in the development and creation of websites
+              of any complexity. We help to realize all your ideas and wishes.
+            </p>
+
+            <span style={{ color: "white", fontSize: "14px" }}>
+              Мы в социальных сетях:
+            </span>
           </p>
           <div className="footer-right-icons">
             <ul>
-              <li>
-                <a href="#">
-                  <FacebookOutlined />
-                </a>
-              </li>
               <li>
                 <a href="#">
                   <GithubOutlined />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/pixel-dev-5b3174241/">
                   <LinkedinOutlined />
                 </a>
               </li>
               <li>
                 <a href="#">
                   <InstagramOutlined />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <YoutubeOutlined />
                 </a>
               </li>
             </ul>
